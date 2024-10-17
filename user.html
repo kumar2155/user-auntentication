@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>user auntentication</title>
+    <link rel="stylesheet" href="user.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="contanier1">
+        <h1>USER LOGIN</h1>
+        <form id="loginform" class="container2">
+          <h1>Login</h1>
+          <label for="username"
+            >username: <input type="text" id="loginuser"
+          /></label>
+          <label for="password"
+            >password: <input type="text" id="loginpass" /></label
+          ><br />
+          <button type="submit">login</button>
+          <p>
+            Don't have an account?
+            <a href="#" id="switchtoregister">Register here</a>
+          </p>
+        </form>
+
+        <form id="registerform" class="hidden">
+          <h1>REGISTER</h1>
+          <label for="username"
+            >registerusername: <input type="text" id="registeruser"
+          /></label>
+          <label for="password"
+            >registerpassword: <input type="text" id="registerpass" /></label
+          ><br />
+          <button type="submit">REGISTER</button>
+          <p>
+            Already have an account?
+            <a href="#" id="switchtologin">Login here</a>
+          </p>
+        </form>
+      </div>
+    </div>
+    <script src="user.js"></script>
+  </body>
+</html>
