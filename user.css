@@ -55,3 +55,19 @@ form button {
 .hidden {
     display: none;
 }
+
+button:hover{
+    transform: scale(1.1);
+    color:black;
+}
+button{
+    color: rgb(181, 143, 73);
+}
+#switchtologin,#switchtoregister{
+    text-decoration: none;
+    color:blue;
+}
+#switchtologin:hover,#switchtoregister:hover{
+    text-decoration: underline;
+    color:darkblue;
+}
